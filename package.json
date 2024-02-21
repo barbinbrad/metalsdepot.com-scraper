@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "metals-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "scrape": "npx ts-node src/scraper.ts",
+    "postscrape": "npm run build",
+    "build": "npx ts-node src/build.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbinbrad/metals-scraper.git"
+  },
+  "author": "Brad Barbin <bradbarbin@proton.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barbinbrad/metals-scraper/issues"
+  },
+  "homepage": "https://github.com/barbinbrad/metals-scraper#readme",
+  "dependencies": {
+    "playwright": "^1.41.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3"
+  }
+}
